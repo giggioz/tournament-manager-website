@@ -1,8 +1,8 @@
-# Associate Website
+# Tournament Manager Website
 
 Il sito e' deployato usando vercel (ho un account) - basta fare un push su github per aggiornare il sito.
 
-Sito web di presentazione per Associate, una piattaforma gestionale dedicata alle associazioni sportive e culturali.
+Sito web di presentazione per Tournament Manager.
 
 ## 🚀 Stack Tecnologico
 
@@ -18,7 +18,7 @@ Sito web di presentazione per Associate, una piattaforma gestionale dedicata all
 
 ```bash
 git clone <repository-url>
-cd associate-website
+cd tournament-manager-website
 ```
 
 2. Installa le dipendenze:
@@ -87,13 +87,3 @@ Il progetto è ottimizzato per il deployment su Vercel:
 1. Collega il repository GitHub a Vercel
 2. Il deploy avverrà automaticamente ad ogni push
 3. Configura le variabili d'ambiente se necessario
-
-## 📞 Contatti
-
-- Email: info@associate.it
-- Telefono: +39 012 345 6789
-- Sito: [associate.it](https://associate.it)
-
----
-
-Sviluppato con ❤️ per Associate
