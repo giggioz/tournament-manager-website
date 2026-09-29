@@ -1,7 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
-import { ArrowRight, Mail, Phone, MessageCircle, CheckCircle } from 'lucide-react'
+import { Mail, Phone, MessageCircle, CheckCircle } from 'lucide-react'
 
 const benefits = [
   'Setup del sistema Tournament Manager gratuito con staff dedicato',
@@ -113,28 +113,23 @@ export default function CTASection() {
             viewport={{ once: true }}
             className="flex flex-col sm:flex-row gap-6 justify-center items-center"
           >
-            <a 
+            <a
               href="mailto:infinitymundi.publishing@gmail.com?subject=Candidatura%20programma%20pilota%20Tournament%20Manager"
-              className="bg-accent-400 hover:bg-accent-500 text-secondary-100 font-bold text-xl px-10 py-5 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl group inline-block"
+              className="bg-accent-400 hover:bg-accent-500 text-secondary-100 font-bold text-xl px-8 py-5 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl inline-flex items-center justify-center min-w-[240px]"
             >
-              Prenota un incontro
-              <ArrowRight className="w-6 h-6 ml-2 inline-block group-hover:translate-x-1 transition-transform" />
+              <Mail className="w-6 h-6 mr-3" />
+              Contattaci via email
             </a>
-            
-            {/* <button className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-primary-800 font-bold text-xl px-10 py-5 rounded-xl transition-all duration-300 transform hover:scale-105">
-              Scarica Brochure
-            </button> */}
+            <a
+              href="https://wa.me/393384291451?text=Ciao,%20sono%20interessato%20al%20programma%20pilota%20di%20Tournament%20Manager"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#25D366] hover:bg-[#1ebe5d] text-secondary-100 font-bold text-xl px-8 py-5 rounded-xl transition-all duration-300 transform hover:scale-105 hover:shadow-2xl inline-flex items-center justify-center min-w-[240px]"
+            >
+              <MessageCircle className="w-6 h-6 mr-3" />
+              Contattaci su WhatsApp
+            </a>
           </motion.div>
-
-          <motion.p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.8, delay: 0.7 }}
-            viewport={{ once: true }}
-            className="text-blue-200 mt-8 text-lg"
-          >
-            ⚡ Risposta garantita entro 24 ore
-          </motion.p>
         </motion.div>
       </div>
     </section>
