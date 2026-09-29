@@ -129,6 +129,12 @@ export default function Footer() {
             <div className="text-slate-400 text-sm mb-4 md:mb-0">
               © {currentYear} Tournament Manager. Tutti i diritti riservati.
             </div>
+            <a
+              href="/privacy"
+              className="text-slate-400 hover:text-white text-sm transition-colors"
+            >
+              Privacy Policy
+            </a>
 
             {/* Social Links */}
             {/* <div className="flex space-x-4">
