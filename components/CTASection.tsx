@@ -8,7 +8,7 @@ const benefits = [
   'Integrazione flussi arbitri e organizzatori',
   'Formazione dedicata per il tuo staff',
   'Dashboard di insight personalizzata',
-  'Utilizzo di tutte le funzionalità premium per l\'intera durata del pilot (2 mesi)',
+  'Utilizzo di tutte le funzionalità premium per l\'intera durata del pilot (3 mesi)',
 ]
 
 export default function CTASection() {
@@ -90,7 +90,7 @@ export default function CTASection() {
                 </motion.a>
                 
                 <motion.a
-                  href="https://wa.me/393384291451?text=Ciao,%20sono%20interessato%20ad%20Associate%20per%20la%20mia%20associazione"
+                  href="https://wa.me/393384291451?text=Ciao,%20sono%20interessato%20al%20programma%20pilota%20di%20Tournament%20Manager"
                   target="_blank"
                   rel="noopener noreferrer"
                   initial={{ opacity: 0, x: 20 }}
